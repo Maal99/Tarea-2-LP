@@ -1,0 +1,8 @@
+def suma_enteros():
+    suma = 0
+    for i in range(100):
+        num = int(input("Ingrese el número entero {}: ".format(i + 1)))
+        suma += num
+    print("La suma de los 100 números enteros es:", suma)
+
+suma_enteros()
