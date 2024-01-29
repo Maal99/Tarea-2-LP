@@ -1,0 +1,8 @@
+import datetime
+
+def dia_semana(numero):
+    dias_semana = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    return dias_semana[numero - 1] if 1 <= numero <= 7 else "Número de día no válido"
+
+numero_dia = int(input("Ingrese un número entero del 1 al 7: "))
+print("El número ingresado corresponde a:", dia_semana(numero_dia))
